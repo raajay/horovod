@@ -1,0 +1,13 @@
+let g:CommandTWildIgnore="*/build,*/horovod.egg-info,*/dist"
+"set wildignore+=*/build/*
+
+let g:ycm_path_to_python_interpreter='/usr/local/bin/python'
+let g:ycm_python_binary_path='/Users/raajay/local/anaconda2/envs/deeplearning/bin/python'
+
+let g:clang_format#auto_format=1
+" set path to include all the source and the include dirs
+" vim's gf uses this to go to files
+set path+=horovod/common
+set path+=horovod/keras
+set path+=horovod/tensorflow
+set path+=horovod/torch
